@@ -1,0 +1,45 @@
+.containerDark {
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 80%;
+    height: 80vh;
+    background-color: #00000080;
+    .noCityError {
+        text-align: center;
+    }
+}
+
+.containerLight {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(227, 218, 218, 0.5);
+    .noCityError {
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .containerDark {
+        border: 2px solid white;
+        border-radius: 15px;
+        width: 80%;
+        height: 80vh;
+        background-color: #00000080;
+        .noCityError {
+            text-align: center;
+        }
+    }
+
+    .containerLight {
+        border: 2px solid black;
+        border-radius: 15px;
+        width: 80%;
+        height: 80vh;
+        background-color: rgba(227, 218, 218, 0.5);
+        .noCityError {
+            text-align: center;
+        }
+    }
+}

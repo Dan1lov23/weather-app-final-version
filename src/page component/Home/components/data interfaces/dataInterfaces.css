@@ -1,0 +1,195 @@
+.DataInterfacesDark {
+    margin: 0 50px;
+    .firstRow {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .cityAndSearchInput {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            .search {
+                text-align: center;
+            }
+        }
+        .city {
+            text-align: center;
+            p {
+                font-size: 40px;
+                color: white;
+            }
+            h2 {
+                font-size: 40px;
+                font-weight: 900;
+                color: white;
+            }
+        }
+        .weatherStats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 10%;
+            .stat {
+                text-align: center;
+                p {
+                    font-size: 40px;
+                    font-weight: 900;
+                    color: white;
+                }
+                h2 {
+                    color: white;
+                    font-size: 35px;
+                }
+                h3 {
+                    font-size: 20px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.DataInterfacesLight {
+    margin: 0 50px;
+    .firstRow {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .cityAndSearchInput {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            .search {
+                text-align: center;
+            }
+        }
+        .city {
+            text-align: center;
+            p {
+                font-size: 40px;
+                color: black;
+            }
+            h2 {
+                font-size: 40px;
+                font-weight: 900;
+                color: black;
+            }
+        }
+        .weatherStats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 10%;
+            .stat {
+                text-align: center;
+                p {
+                    font-size: 40px;
+                    font-weight: 900;
+                    color: black;
+                }
+                h2 {
+                    color: black;
+                    font-size: 35px;
+                }
+                h3 {
+                    font-size: 20px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .DataInterfacesDark {
+        margin: 0 50px;
+        .firstRow {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .cityAndSearchInput {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                .search {
+                    text-align: center;
+                }
+            }
+            .city {
+                text-align: center;
+                p {
+                    font-size: 40px;
+                    color: white;
+                }
+                h2 {
+                    font-size: 40px;
+                    font-weight: 900;
+                    color: white;
+                }
+
+            }
+            .weatherStats {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                .stat {
+                    text-align: center;
+                    p {
+                        font-size: 30px;
+                        font-weight: 900;
+                        color: white;
+                    }
+                    h2 {
+                        color: white;
+                        font-size: 20px;
+                    }
+                    h3 {
+                        font-size: 10px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    .DataInterfacesLight {
+        margin: 0 50px;
+        .firstRow {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            .cityAndSearchInput {
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                .search {
+                    text-align: center;
+                }
+            }
+            .city {
+                text-align: center;
+                p {
+                    font-size: 40px;
+                    color: black;
+                }
+                h2 {
+                    font-size: 40px;
+                    font-weight: 900;
+                    color: black;
+                }
+            }
+            .weatherStats {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                .stat {
+                    text-align: center;
+                    p {
+                        font-size: 30px;
+                        font-weight: 900;
+                        color: black;
+                    }
+                    h2 {
+                        color: black;
+                        font-size: 20px;
+                    }
+                    h3 {
+                        font-size: 10px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

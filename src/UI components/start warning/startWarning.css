@@ -1,0 +1,44 @@
+.startWarningDark {
+    text-align: center;
+    .warningText {
+        p {
+            color: white;
+            font-size: 30px;
+            font-weight: 900;
+        }
+    }
+}
+
+.startWarningLight {
+    text-align: center;
+    .warningText {
+        p {
+            color: black;
+            font-size: 30px;
+            font-weight: 900;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .startWarningDark {
+        text-align: center;
+        .warningText {
+            p {
+                color: white;
+                font-size: 20px;
+                font-weight: 900;
+            }
+        }
+    }
+    .startWarningLight {
+        text-align: center;
+        .warningText {
+            p {
+                color: black;
+                font-size: 20px;
+                font-weight: 900;
+            }
+        }
+    }
+}

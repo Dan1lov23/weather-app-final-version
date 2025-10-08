@@ -1,0 +1,106 @@
+.searchInputDark {
+    input {
+        width: 360px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+    }
+    button {
+        margin-left: 20px;
+        width: 50px;
+        height: 45px;
+        background: #061c9a;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    button:hover {
+        background: #102edc;
+        scale: 1.1;
+    }
+}
+
+.searchInputLight {
+    input {
+        width: 360px;
+        height: 40px;
+        border: 1px solid black;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    button {
+        margin-left: 20px;
+        width: 50px;
+        height: 45px;
+        background: #061c9a;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    button:hover {
+        background: #102edc;
+        scale: 1.1;
+    }
+}
+
+@media(max-width: 768px) {
+    .searchInputDark {
+        input {
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            color: black;
+        }
+        button {
+            margin-left: 20px;
+            width: 50px;
+            height: 45px;
+            background: #061c9a;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #102edc;
+            scale: 1.1;
+        }
+    }
+    .searchInputLight {
+        input {
+            width: 150px;
+            height: 40px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            color: black;
+        }
+        button {
+            margin-left: 20px;
+            width: 50px;
+            height: 45px;
+            background: #061c9a;
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #102edc;
+            scale: 1.1;
+        }
+    }
+}

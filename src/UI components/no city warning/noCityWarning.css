@@ -1,0 +1,33 @@
+.NoCityWarningDark {
+    text-align: center;
+    h1 {
+        font-size: 44px;
+        color: white;
+    }
+}
+
+.NoCityWarningLight {
+    text-align: center;
+    h1 {
+        font-size: 44px;
+        color: black;
+    }
+}
+
+@media(max-width: 768px) {
+    .NoCityWarningDark {
+        text-align: center;
+        h1 {
+            font-size: 27px;
+            color: white;
+        }
+    }
+
+    .NoCityWarningLight {
+        text-align: center;
+        h1 {
+            font-size: 27px;
+            color: black;
+        }
+    }
+}
