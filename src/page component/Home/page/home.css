@@ -4,7 +4,7 @@
     display: grid;
     place-items: center;
     align-items: center;
-    background-image: url("src/imgs/background imgs/forest-fall-foliage-fog-morning-dark-path-autumn-forest-3840x2160-7998.jpg");
+    background-image: url("../../../imgs/forest-fall-foliage-fog-morning-dark-path-autumn-forest-3840x2160-7998.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     display: grid;
     place-items: center;
     align-items: center;
-    background-image: url("src/imgs/background imgs/winter-landscape-pine-trees-frosted-trees-sunny-day-snow-5k-6000x2848-1338.jpg");
+    background-image: url("/src/imgs/winter-landscape-pine-trees-frosted-trees-sunny-day-snow-5k-6000x2848-1338.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
         display: grid;
         place-items: center;
         align-items: center;
-        background-image: url("src/imgs/background imgs/forest-fall-foliage-fog-morning-dark-path-autumn-forest-3840x2160-7998.jpg");
+        background-image: url("/src/imgs/forest-fall-foliage-fog-morning-dark-path-autumn-forest-3840x2160-7998.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -41,7 +41,7 @@
         display: grid;
         place-items: center;
         align-items: center;
-        background-image: url("src/imgs/background imgs/winter-landscape-pine-trees-frosted-trees-sunny-day-snow-5k-6000x2848-1338.jpg");
+        background-image: url("../../../imgs/winter-landscape-pine-trees-frosted-trees-sunny-day-snow-5k-6000x2848-1338.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

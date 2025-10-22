@@ -52,6 +52,8 @@
 
 @media(max-width: 768px) {
     .searchInputDark {
+        display: grid;
+        grid-template-columns: auto 1fr;
         input {
             width: 150px;
             height: 40px;
