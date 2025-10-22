@@ -1,4 +1,7 @@
 .searchInputDark {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, max-content);
     input {
         width: 360px;
         height: 40px;
@@ -25,6 +28,9 @@
 }
 
 .searchInputLight {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, max-content);
     input {
         width: 360px;
         height: 40px;
@@ -53,7 +59,8 @@
 @media(max-width: 768px) {
     .searchInputDark {
         display: grid;
-        grid-template-columns: auto 1fr;
+        justify-content: center;
+        grid-template-columns: repeat(2, max-content);
         input {
             width: 150px;
             height: 40px;
@@ -80,6 +87,9 @@
         }
     }
     .searchInputLight {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, max-content);
         input {
             width: 150px;
             height: 40px;
